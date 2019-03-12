@@ -1,0 +1,363 @@
+@charset "UTF-8";
+.wrapper {
+  position: relative;
+  width: 100%;
+  min-width: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-line-pack: center;
+  align-content: center; }
+
+.maincontent {
+  min-height: 40.625rem;
+  width: 100%; }
+
+.section {
+  height: 100%;
+  overflow: hidden;
+  min-width: 58.75rem;
+  min-height: 40.625rem; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  margin-top: 0; }
+
+body {
+  font-family: BebasNeue Regular, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  line-height: 1.42;
+  position: relative; }
+
+*, *::before, after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body, html {
+  widows: 100%;
+  height: 100%; }
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+@font-face {
+  font-family: "BebasNeue Bold";
+  /* Для поддержки браузера IE6+ */
+  src: url("../fonts/BebasNeue Bold.otf"), url("../fonts/BebasNeue Bold.ttf");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "BebasNeue Book";
+  /* Для поддержки браузера IE6+ */
+  src: url("../fonts/BebasNeue Book.otf"), url("../fonts/BebasNeue Book.ttf");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "BebasNeue Light";
+  /* Для поддержки браузера IE6+ */
+  src: url("../fonts/BebasNeue Light.otf"), url("../fonts/BebasNeue Light.ttf");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "BebasNeue Regular";
+  /* Для поддержки браузера IE6+ */
+  src: url("../fonts/BebasNeue Regular.otf"), url("../fonts/BebasNeue Regular.ttf");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "BebasNeue Thin";
+  /* Для поддержки браузера IE6+ */
+  src: url("../fonts/BebasNeue Thin.otf"), url("../fonts/BebasNeue Thin.ttf");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "B20Sans";
+  /* Для поддержки браузера IE6+ */
+  src: url("../fonts/B20Sans.ttf");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Roboto-Light";
+  /* Для поддержки браузера IE6+ */
+  src: url("../fonts/Roboto-Light_1.ttf");
+  font-weight: normal;
+  font-style: normal; }
+
+.focus_group {
+  color: #5584ba;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .focus_group .left-img {
+    background-color: #5584ba; }
+    .focus_group .left-img img {
+      height: 100%; }
+  .focus_group .right-text {
+    padding: 0 1.875rem 0 1.875rem; }
+    .focus_group .right-text h2 {
+      font-family: BebasNeue Bold;
+      font-size: 1.5rem; }
+    .focus_group .right-text p {
+      font-family: Roboto-Light;
+      text-align: justify;
+      font-size: 0.875rem; }
+
+.footer {
+  background-color: #5584ba;
+  color: #fff; }
+  .footer .footer_wrap {
+    padding: 1.875rem 0 1.875rem 0;
+    width: 70%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    margin: 0 auto;
+    font-family: BebasNeue Bold;
+    font-size: 1.25rem; }
+  .footer .menu_wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .footer .menu_wrap .menu_left, .footer .menu_wrap .menu_right {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column; }
+      .footer .menu_wrap .menu_left a, .footer .menu_wrap .menu_right a {
+        text-decoration: none;
+        color: #fff;
+        font-family: Roboto-Light;
+        font-size: 1rem; }
+        .footer .menu_wrap .menu_left a:hover, .footer .menu_wrap .menu_right a:hover {
+          text-decoration: underline; }
+    .footer .menu_wrap .menu_right {
+      margin-left: 1.25rem; }
+  .footer .foot_contacts div {
+    font-family: Roboto-Light;
+    font-size: 1rem; }
+  .footer .foot_social .icons svg {
+    fill: #fff; }
+  .footer .foot_social p {
+    font-family: Roboto-Light; }
+
+.header {
+  position: relative;
+  width: 100;
+  background-color: #5584ba;
+  color: #fff; }
+
+.header_wrap {
+  padding: 1.25rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .header_wrap .menu ul a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0.625rem; }
+    .header_wrap .menu ul a:hover {
+      border: 1px solid #fff;
+      border-width: 0 0 1px 0; }
+  .header_wrap .menu nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  .header_wrap .phone svg {
+    fill: #fff; }
+
+.herocontent {
+  background-color: #5584ba;
+  color: #fff; }
+
+.hero_wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.hero_img {
+  position: relative;
+  z-index: 1; }
+  .hero_img img {
+    height: 100%;
+    max-height: 31.25rem; }
+
+.info {
+  position: relative;
+  margin-left: -12.5rem;
+  z-index: 10000;
+  max-width: 53.125rem; }
+  .info h2 {
+    font-family: BebasNeue Bold;
+    font-size: 2.9375rem; }
+  .info h3 {
+    font-family: BebasNeue Book;
+    font-size: 2.25rem; }
+  .info p {
+    width: 25rem;
+    font-family: Roboto-Light;
+    font-size: 0.875rem;
+    text-align: justify;
+    float: right; }
+
+.master_group {
+  background-color: #5584ba;
+  color: #fff; }
+  .master_group .master-wrap {
+    width: 70%;
+    margin: 0 auto;
+    padding: 6.25rem 0 6.25rem 0; }
+  .master_group h2 {
+    font-family: BebasNeue Bold;
+    font-size: 1.5rem; }
+  .master_group .master_text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .master_group .master_text .left_text, .master_group .master_text .right_text {
+      max-width: 41.875rem;
+      padding: 0 1.875rem 0 0;
+      font-family: Roboto-Light;
+      text-align: justify;
+      font-size: 0.875rem; }
+
+.slider {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.slider__block {
+  overflow: hidden;
+  height: 31.25rem; }
+  .slider__block .slider__images {
+    margin-top: 3.125rem;
+    margin-left: 9.375rem;
+    position: relative;
+    height: 100%;
+    font-size: 0;
+    min-width: 19.0625rem;
+    overflow: hidden; }
+  .slider__block .slider__ul {
+    position: absolute;
+    white-space: nowrap;
+    top: 0;
+    left: 0;
+    min-width: 100%; }
+  .slider__block .slider__item {
+    display: inline-block; }
+  .slider__block .next-prew {
+    margin-top: -9.375rem; }
+    .slider__block .next-prew .arrows .left img {
+      -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+      transform: rotate(180deg); }
+    .slider__block .next-prew img {
+      background-color: #5584ba;
+      padding: 0.3125rem;
+      width: 2.5rem;
+      height: 2.5rem; }
+
+.start-up {
+  background-color: #5584ba;
+  color: #fff; }
+  .start-up .start-wrap {
+    width: 70%;
+    margin: 0 auto;
+    padding: 6.25rem 0 6.25rem 0; }
+  .start-up h2 {
+    font-family: BebasNeue Bold;
+    font-size: 1.5rem; }
+    .start-up h2 img {
+      float: right;
+      padding-left: 1.875rem; }
+  .start-up .text p {
+    font-family: Roboto-Light;
+    font-size: 0.875rem;
+    text-align: justify; }
+
+.write {
+  color: #5584ba;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .write .write_right {
+    max-width: 50%; }
+    .write .write_right img {
+      width: 100%;
+      height: 100%; }
+  .write .write_left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0 auto; }
+    .write .write_left h2 {
+      font-family: BebasNeue Bold;
+      font-size: 1.5rem; }
+    .write .write_left p {
+      font-family: Roboto-Light;
+      font-size: 0.875rem; }
+    .write .write_left form input {
+      margin: 0 0 1.25rem 0;
+      width: 100%;
+      border: 1px solid #f2f2f2;
+      padding: 0.625rem 0.3125rem 0.625rem 0.3125rem; }
+    .write .write_left form .two {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: start;
+      -ms-flex-align: start;
+      align-items: flex-start; }
+    .write .write_left form button {
+      width: 9.375rem;
+      color: #fff;
+      background-color: #5584ba;
+      border: solid #5584ba; }
+    .write .write_left form .textarea {
+      height: 9.375rem;
+      width: 100%; }

@@ -1,0 +1,26 @@
+.wrapper{
+    position: relative;
+    width: 100%;
+    min-width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.maincontent{
+    min-height: rem(650px);
+    width: 100%;
+}
+
+.section{
+    height: 100%;
+    overflow: hidden;
+    min-width: rem(940px);
+    min-height: rem(650px);
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-weight: normal;
+    margin-top: 0;
+}

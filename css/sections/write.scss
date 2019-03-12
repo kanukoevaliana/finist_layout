@@ -1,0 +1,50 @@
+.write{
+    color: $base;
+    display: flex;
+    .write_right{
+        max-width: 50%;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .write_left{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+        // max-width: 45%;
+        // margin-left: rem(130px);
+        // margin-right: rem()
+        h2{
+            font-family: BebasNeue Bold;
+            font-size: rem(24px);
+        }
+        p{
+            font-family: Roboto-Light;
+            font-size: rem(14px);
+        }
+        form{
+            input{
+                margin: 0 0 rem(20px) 0;
+                width: 100%;
+                border: 1px solid #f2f2f2;
+                padding: rem(10px) rem(5px) rem(10px) rem(5px);
+            }
+            .two{
+                display: flex;
+                align-items: flex-start;
+            }
+            button{
+                width: rem(150px);
+                color: #fff;
+                background-color: $base;
+                border: solid $base;
+            }
+            .textarea{
+                height: rem(150px);
+                width: 100%;
+            }
+        }
+    }
+}

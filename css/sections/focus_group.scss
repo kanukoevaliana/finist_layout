@@ -1,0 +1,23 @@
+.focus_group{
+    color: $base;
+    display: flex;
+    align-items: center;
+    .left-img{
+        background-color: $base;
+        img{
+            height: 100%;
+        }
+    }
+    .right-text{
+        padding: 0 rem(30px) 0 rem(30px);
+        h2{
+            font-family: BebasNeue Bold;
+            font-size: rem(24px);
+        }
+        p{
+            font-family: Roboto-Light;
+            text-align: justify;
+            font-size: rem(14px);
+        }
+    }
+}

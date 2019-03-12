@@ -1,0 +1,19 @@
+//config
+@import "config/mixins.scss";
+@import "config/variables.scss";
+
+
+//layout
+@import "layout/adjustment.scss";
+@import "layout/base.scss";
+@import "layout/fonts.scss";
+
+//sections
+@import "sections/focus_group.scss";
+@import "sections/footer.scss";
+@import "sections/header.scss";
+@import "sections/herocontent.scss";
+@import "sections/master_group.scss";
+@import "sections/slider.scss";
+@import "sections/start-up.scss";
+@import "sections/write.scss";
