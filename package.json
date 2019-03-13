@@ -1,0 +1,14 @@
+{
+  "name": "finist",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "kanukoeva liana <kanukoeva.liana@yandex.ru>",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3"
+  },
+  "dependencies": {
+    "vue": "^2.6.8"
+  }
+}
